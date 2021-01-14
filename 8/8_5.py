@@ -3,7 +3,7 @@
 # You can use addition, subtraction, and bit shifting, but you should minimize the number of those operations.
 
 # iterative solution
-def multiple(a, b):
+def multiply(a, b):
     if b > a:
         a, b = b, a
     if b == 0:
@@ -19,7 +19,7 @@ def multiple(a, b):
     return a
 
 # recursive solution
-def multiple(a, b):
+def multiply(a, b):
     if b == 0:
         return 0
         
